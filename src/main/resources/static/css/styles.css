@@ -1,0 +1,46 @@
+
+body{
+    background-color: darkgray;
+    align-content: center;
+    display: flex;
+}
+
+#panel{
+    flex: 0 0 6cm;
+    height: 12cm;
+    background-color: wheat;
+    margin: auto;
+    margin-left: 0cm;
+}
+
+#board{
+    width: 12cm;
+    height: 12cm;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    margin-right: 0cm;
+}
+
+.light-square{
+    border-width: 0px;
+    flex: 0 0 12.5%;
+    height: 12.5%;
+    background-color: burlywood;
+}
+
+.dark-square{
+    border-width: 0px;
+    flex: 0 0 12.5%;
+    height: 12.5%;
+    background-color: brown;
+}
+
+.selected{
+    background-color: blue;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
